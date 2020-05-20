@@ -8,9 +8,31 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    let tips = RelaxationTip.demoTips
+    
+    @State private var selectedPickerIndex = 0
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        Picker(selection: $selectedPickerIndex, label: Text("Relaxation Action")) {
+            
+            VStack {
+                ForEach(0..<tips.count) { index in
+                    HStack {
+                        Image(self.tips[index].imageName)
+                            .resizable()
+                            .scaledToFit()
+                        
+                        Text("Cat relaxation tip number \(self.tips[index].tip)")
+                        
+                    }
+                }
+            }
+        }
+        
     }
 }
 

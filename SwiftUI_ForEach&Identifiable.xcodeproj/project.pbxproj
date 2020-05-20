@@ -13,6 +13,7 @@
 		618E17852473E0B600BE19ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618E17842473E0B600BE19ED /* Assets.xcassets */; };
 		618E17882473E0B600BE19ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618E17872473E0B600BE19ED /* Preview Assets.xcassets */; };
 		618E178B2473E0B600BE19ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618E17892473E0B600BE19ED /* LaunchScreen.storyboard */; };
+		618E17932473E12500BE19ED /* RelaxationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E17922473E12500BE19ED /* RelaxationTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		618E17872473E0B600BE19ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		618E178A2473E0B600BE19ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		618E178C2473E0B600BE19ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618E17922473E12500BE19ED /* RelaxationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				618E177E2473E0B300BE19ED /* AppDelegate.swift */,
 				618E17802473E0B300BE19ED /* SceneDelegate.swift */,
 				618E17822473E0B300BE19ED /* ContentView.swift */,
+				618E17922473E12500BE19ED /* RelaxationTip.swift */,
 				618E17842473E0B600BE19ED /* Assets.xcassets */,
 				618E17892473E0B600BE19ED /* LaunchScreen.storyboard */,
 				618E178C2473E0B600BE19ED /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				618E177F2473E0B300BE19ED /* AppDelegate.swift in Sources */,
 				618E17812473E0B300BE19ED /* SceneDelegate.swift in Sources */,
+				618E17932473E12500BE19ED /* RelaxationTip.swift in Sources */,
 				618E17832473E0B300BE19ED /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
